@@ -3,7 +3,6 @@ title: "Home"
 menu: ["main", "sidebar"]
 date: 2021-12-21T19:01:53+01:00
 description: "Some description..."
-draft: true
 weight: -230
 ---
 

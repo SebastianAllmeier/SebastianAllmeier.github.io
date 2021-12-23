@@ -4,7 +4,6 @@ date: 2021-12-21T17:38:18+01:00
 description: "A library to Compute (Refined) Mean Field Approximations"
 weight: -230
 slug: rmftool
-draft: true
 tags: ["rmftool"]
 ---
 
