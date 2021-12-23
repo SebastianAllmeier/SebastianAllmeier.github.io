@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Sebastian</title><link>https://sebastianallmeier.github.io/projects/</link><description>Recent content in Projects on Sebastian</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 21 Dec 2021 17:38:18 +0100</lastBuildDate><atom:link href="https://sebastianallmeier.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>RMF Tool</title><link>https://sebastianallmeier.github.io/projects/rmftool/</link><pubDate>Tue, 21 Dec 2021 17:38:18 +0100</pubDate><guid>https://sebastianallmeier.github.io/projects/rmftool/</guid><description>The rmftool is written in python and available on:
+Github (An introduction and short examples are hosted in the repository.) Pipy A paper, accepted at the Tools for Stochastic Modelling and Evaluation workshop of IFIP Performance 2021 and can be found here: Link
+To install the package simply
+The package / tool can be easily installed by using pip:
+pip install rmftool</description></item></channel></rss>
