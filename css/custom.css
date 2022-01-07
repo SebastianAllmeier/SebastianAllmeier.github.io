@@ -1,16 +1,15 @@
 @font-face {
- font-family: "Helvetica Neue"，"Arial",  "STHeiti Light ", "Microsoft YaHei", sans-serif;
+ font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+ font-size: .95em;
 }
 body {
- font-family:  "Helvetica Neue", "Arial", "STHeiti Light", "Microsoft YaHei"
+ font-family:  "Roboto", "Arial", "Helvetica", sans-serif;
+ font-size: .95em;
 }
 blockquote {
  font-size: .95em;
 }@font-face {
- font-family: "Helvetica Neue"，"Arial",  "STHeiti Light ", "Microsoft YaHei", sans-serif;
-}
-body {
- font-family:  "Helvetica Neue", "Arial", "STHeiti Light", "Microsoft YaHei"
+ font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 }
 blockquote {
  font-size: .5em;
