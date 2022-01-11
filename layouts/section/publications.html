@@ -1,0 +1,53 @@
+
+{{ partial "header" . }}
+
+{{ if .Content }}
+
+{{ end }}
+
+<div>
+    <br>
+   <h1>{{ .Title }}</h1>
+   <div class='entry'>
+  {{ partial "entry/cover" . }}
+  {{ partial "entry/content" . }}
+    </div>
+        <!-- <ul>
+        <h3>2022</h3>
+            {{ range .Pages.ByDate }}
+                
+                {{ if eq .Date.Year 2022}}
+                <li>
+                    <time>{{ .Date.Format "2006" }}</time> - 
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+                
+            {{ end }}
+        </ul> -->
+        <ul>
+        <h3>2021</h3>
+            {{ range .Pages.ByDate }}
+                {{ if eq .Date.Year 2021}}
+                <li style="margin: 15px 0;">
+                    <a href="{{ .Params.external }}" target="_blank">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            {{ end }}
+        </ul>
+</div>
+
+{{- $homepageWidgets := .Site.Params.widgets.homepage -}}
+{{- if $homepageWidgets -}}
+<div class='home-widgets'>
+  <div class='container sep-before'>
+    {{- partial "extras/widget_area" ( dict "Widgets" $homepageWidgets "Scope" . ) -}}
+  </div>
+</div>
+{{- end -}}
+
+{{ partial "footer" . }}
+
+
+
+
