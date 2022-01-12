@@ -124,11 +124,6 @@ weight = 50
 identifier = "repository"
 url = "https://github.com/SebastianAllmeier"
 
-[[menu.main]]
-name = "Projects"
-weight = 40
-identifier = "projects"
-url = "/projects"
 
 [sidebar_menu]
 mirror = "menu.main"
