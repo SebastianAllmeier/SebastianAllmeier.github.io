@@ -1,7 +1,7 @@
 ---
 title: "Slides"
 date: 2021-12-23T11:01:06+01:00
-description: "Some description..."
+description: "A selection of recent talks."
 menu: ["sidebar"]
 headless: true
 categories: ["publications"]
