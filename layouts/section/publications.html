@@ -1,18 +1,17 @@
 
 {{ partial "header" . }}
 
+{{ partial "entry/header" . }}
+
+<div class='entry'>
+
 {{ if .Content }}
-
-{{ end }}
-
-<div>
-    <br>
-   <h1>{{ .Title }}</h1>
-   <div class='entry'>
   {{ partial "entry/cover" . }}
   {{ partial "entry/content" . }}
-    </div>
-        <!-- <ul>
+{{ end }}
+
+<div class="container entry-content">
+       <!-- <ul>
         <h3>2022</h3>
             {{ range .Pages.ByDate }}
                 
@@ -30,12 +29,23 @@
             {{ range .Pages.ByDate }}
                 {{ if eq .Date.Year 2021}}
                 <li style="margin: 15px 0;">
-                    <a href="{{ .Params.external }}" target="_blank">{{ .Title }}</a>
+                    <a href="{{ .Params.external }}" target="_blank">{{ .Title }}</a><br>
+                    {{ if .Params.WrittenBy }}
+                    - 
+                        {{ range .Params.WrittenBy }}
+                            {{ . }},
+                        {{ end }}
+                    {{ end}}
+                    {{ if .Params.Conference }}
+                        {{ .Params.Conference }}.
+                    {{ end}}
                 </li>
                 {{ end }}
             {{ end }}
         </ul>
 </div>
+</div>
+
 
 {{- $homepageWidgets := .Site.Params.widgets.homepage -}}
 {{- if $homepageWidgets -}}
