@@ -21,6 +21,10 @@ The tool can be easily installed by using pyhtons package manager pip:
 pip install rmftool
 ```
 
+The tool was developed my [Nicolas Gast] and myself. 
+
+
+[Nicolas Gast]: http://polaris.imag.fr/nicolas.gast/index.html
 [Github]: https://github.com/ngast/rmf_tool
 [Pipy]: https://pypi.org/project/rmftool/
 [1]: https://hal.inria.fr/hal-03485044/document
