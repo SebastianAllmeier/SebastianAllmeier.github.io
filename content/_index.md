@@ -9,6 +9,10 @@ weight: -230
 I am a PhD student supervised by [Nicolas GAST] at [Université Grenoble Alpes] and [Inria Grenoble - Rhône-Alpes]. My fields of interest develop around Mean Field methods with applications to large scale stochastic systems such as [population models], [load balancing policies], [chemical reaction networks] or [network protocols].
 
 
+Contact:
+{{< figure type="static" src="/images/mail.png" width="300px">}}
+
+
 [Nicolas GAST]: http://polaris.imag.fr/nicolas.gast/index.html
 [Université Grenoble Alpes]: https://www.univ-grenoble-alpes.fr/
 [Inria Grenoble - Rhône-Alpes]: https://www.inria.fr/en/centre-inria-grenoble-rhone-alpes
