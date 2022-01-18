@@ -16,9 +16,7 @@ The **rmftool** is written in python and available on:
 A paper, accepted at the _Tools for Stochastic Modelling and Evaluation_ workshop of IFIP Performance 2021 and can be found here: [Link][1]
 
 
-To install the package simply 
-
-The package / tool can be easily installed by using pip:
+The tool can be easily installed by using pyhtons package manager pip:
 ```python
 pip install rmftool
 ```
