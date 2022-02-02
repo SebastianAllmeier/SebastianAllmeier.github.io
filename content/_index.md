@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Sebastian Allmeier"
 menu: ["main", "sidebar"]
 date: 2021-12-21T19:01:53+01:00
 description: "Sebastian Allmeier, PhD Student at Université Grenoble Alpes and Inria Grenoble - Rhône-Alpes, France"
