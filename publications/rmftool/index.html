@@ -1,6 +1,6 @@
 <!doctype html><html lang=en dir=auto><head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JP15BEP07"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-2JP15BEP07',{anonymize_ip:!1})}</script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-2JP15BEP07",{anonymize_ip:!1})}</script>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content>
@@ -10,17 +10,14 @@
 <meta property="og:url" content="https://sebastianallmeier.github.io/publications/rmftool/">
 <meta property="og:site_name" content="Sebastian Allmeier">
 <meta property="og:type" content="article"><meta property="article:section" content="publications"><meta property="article:published_time" content="2021-11-19T16:46:41+01:00"><meta property="article:modified_time" content="2021-11-19T16:46:41+01:00"><meta name=twitter:card content="summary">
-<meta name=generator content="Hugo 0.92.1">
-<title>rmftool - A library to Compute (Refined) Mean Field Approximation(s) • Sebastian Allmeier</title>
-<link rel=canonical href=https://sebastianallmeier.github.io/publications/rmftool/>
+<meta name=generator content="Hugo 0.93.2">
+<title>rmftool - A library to Compute (Refined) Mean Field Approximation(s) • Sebastian Allmeier</title><link rel=canonical href=https://sebastianallmeier.github.io/publications/rmftool/>
 <link rel=icon href=/favicon.ico>
-<link rel=stylesheet href=/assets/css/main.ab98e12b.css><link rel=stylesheet href=/css/custom.css><style>:root{--color-accent:#ffcd00}</style>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2JP15BEP07"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-2JP15BEP07',{anonymize_ip:!1})}</script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-2JP15BEP07','auto'),ga('send','pageview'))</script>
+<link rel=stylesheet href=/assets/css/main.ab98e12b.css><link rel=stylesheet href=/css/custom.css><style>:root{--color-accent:#ffcd00}</style><script async src="https://www.googletagmanager.com/gtag/js?id=G-2JP15BEP07"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-2JP15BEP07",{anonymize_ip:!1})}</script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","G-2JP15BEP07","auto"),ga("send","pageview"))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
-</head>
-<body class="page type-publications has-sidebar">
+</head><body class="page type-publications has-sidebar">
 <div class=site><div id=sidebar class=sidebar>
 <a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
 <div class=container><section class="widget widget-about sep-after">
@@ -29,39 +26,21 @@
 <a href=/>
 <img src=/images/logo.png>
 </a>
-</div>
-<h2 class="title site-title">
+</div><h2 class="title site-title">
 <a href=/>
 Sebastian Allmeier
 </a>
-</h2>
-<div class=desc>
+</h2><div class=desc>
 PhD Student
-</div>
-</header>
-</section>
-<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
+</div></header></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
 <div class=container>
 <ul><li class=item>
 <a href=/>Sebastian Allmeier</a></li><li class="item has-current">
 <a href=/publications/>Publications</a></li><li class=item>
 <a href=/projects/>Projects</a></li><li class=item>
-<a href=/slides/>Slides</a></li></ul>
-</div>
-</nav>
-</section><section class="widget widget-taxonomy_cloud sep-after">
-<header>
-<h4 class="title widget-title">Tags</h4>
-</header>
-<div class="container list-container">
-<ul class="list taxonomy-cloud"><li>
-<a href=/tags/rmftool/ style=font-size:1em>rmftool</a>
-</li></ul>
-</div>
-</section>
-</div>
-<div class=sidebar-overlay></div>
-</div><div class=main><nav id=main-menu class="menu main-menu" aria-label="Main Menu">
+<a href=/cv/>Short CV</a></li><li class=item>
+<a href=https://github.com/SebastianAllmeier>Github</a></li><li class=item>
+<a href=/slides/>Slides</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><nav id=main-menu class="menu main-menu" aria-label="Main Menu">
 <div class=container>
 <a class=screen-reader-text href=#content>Skip to Content</a>
 <button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
@@ -71,57 +50,22 @@ PhD Student
 <span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
 </span>
 </button>
-<ul><li class=item>
-<a href=/>Sebastian Allmeier</a>
-</li><li class="item current">
-<a aria-current=page href=/publications/>Publications</a>
-</li><li class=item>
-<a href=/projects/>Projects</a>
-</li><li class=item>
-<a href=https://github.com/SebastianAllmeier>Github</a>
-</li></ul>
-</div>
-</nav><div class=header-widgets>
+<ul></ul></div></nav><div class=header-widgets>
 <div class=container>
-<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
-<section class="widget widget-breadcrumbs sep-after">
+<style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after">
 <nav id=breadcrumbs>
-<ol><li><a href=/>Sebastian Allmeier</a></li><li><a href=/publications/>Publications</a></li><li><span>rmftool - A library to Compute (Refined) Mean Field Approximation(s)</span></li></ol>
-</nav>
-</section></div>
-</div>
-<header id=header class="header site-header"><div class="container sep-after">
+<ol><li><a href=/>Sebastian Allmeier</a></li><li><a href=/publications/>Publications</a></li><li><span>rmftool - A library to Compute (Refined) Mean Field Approximation(s)</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after">
 <div class=header-info>
-<p class="site-title title">Sebastian Allmeier</p>
-<p class="desc site-desc">PhD Student</p>
-</div>
-</div></header>
-<main id=content>
+<p class="site-title title">Sebastian Allmeier</p><p class="desc site-desc">PhD Student</p></div></div></header><main id=content>
 <article lang=en class=entry>
 <header class="header entry-header">
 <div class="container sep-after">
 <div class=header-info>
-<h1 class=title>rmftool - A library to Compute (Refined) Mean Field Approximation(s)</h1>
-</div>
-</div>
-</header>
-<div class="container entry-content">
-</div>
-<footer class=entry-footer>
+<h1 class=title>rmftool - A library to Compute (Refined) Mean Field Approximation(s)</h1></div></div></header><div class="container entry-content">
+</div><footer class=entry-footer>
 <div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg>
-<span class=screen-reader-text>Categories: </span><a class=category href=/categories/publications/>publications</a></div>
-</div>
-</footer>
-</article>
-</main>
-<footer id=footer class=footer>
+<span class=screen-reader-text>Categories: </span><a class=category href=/categories/publications/>publications</a></div></div></footer></article></main><footer id=footer class=footer>
 <div class="container sep-before"><div class=copyright>
-<p> &copy; 2022 Sebastian Allmeier </p>
-</div>
-</div>
-</footer>
-</div>
-</div><script>window.__assets_js_src="/assets/js/"</script>
+<p> &copy; 2022 Sebastian Allmeier </p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script>
 <script src=/assets/js/main.c3bcf2df.js></script><script src=/js/custom.js></script>
-</body>
-</html>
+</body></html>
