@@ -46,7 +46,20 @@
           </div>
         {{- else -}}
           <div class='container sep-after'>
-            <p style="margin-bottom:3.7cm;"></p>
+            <style type="text/css">
+              .name-container {visibility:hidden;}
+              @media screen and (max-width: 920px) {
+              .name-container {visibility:visible;}
+              }
+            </style>
+              <div class="name-container">
+                <p style="margin-bottom:0.6cm;"></p>
+                <h2 class="title site-title ">
+                  <a href="/">Sebastian Allmeier</a>
+                </h2>
+                <div class="desc">PhD Student</div>
+              </div>
+            <!-- <p style="margin-bottom:3.7cm;"></p> -->
           </div>
         {{- end -}}
       </header>
