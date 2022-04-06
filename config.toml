@@ -59,6 +59,8 @@ homepage = []
 sidebar = ["about","sidebar_menu"]
 # footer = ["social_menu"]
 
+
+
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
 appID = ""

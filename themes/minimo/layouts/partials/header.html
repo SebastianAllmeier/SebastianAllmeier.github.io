@@ -3,6 +3,10 @@
 
 {{- partial "head/head" . -}}
 
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
 <body class='{{ partial "header/bodyClasses" . }}'>
 
   <div class='site'>
@@ -53,7 +57,7 @@
               }
             </style>
               <div class="name-container">
-                <p style="margin-bottom:0.6cm;"></p>
+                <p class="empty_margin_home"></p>
                 <h2 class="title site-title ">
                   <a href="/">Sebastian Allmeier</a>
                 </h2>

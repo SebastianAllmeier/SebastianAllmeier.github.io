@@ -6,6 +6,7 @@ categories: ["publications"]
 external: "https://dl.acm.org/doi/abs/10.1145/3508033"
 WrittenBy: ["Sebastian Allmeier", "Nicolas Gast"]
 Conference: "Accepted at Sigmetrics 2022"
+Repo: "https://github.com/SebastianAllmeier/Mean-Field-Approximations-For-Heterogeneous-Systems"
 ---
 
 

@@ -35,10 +35,14 @@
                         {{ range .Params.WrittenBy }}
                             {{ . }},
                         {{ end }}
-                    {{ end}}
+                    {{ end }}
                     {{ if .Params.Conference }}
                         {{ .Params.Conference }}.
-                    {{ end}}
+                    {{ end }}
+                    {{ if .Params.Repo }}
+                        <br>
+                        &emsp;>> Repository for Reproduction: <a href="{{ .Params.Repo }}" target="_blank">Link</a>
+                    {{ end }}
                 </li>
                 {{ end }}
             {{ end }}
