@@ -15,3 +15,14 @@ blockquote {
  font-size: .5em;
 }
 
+.widget-about .custom_logo{max-width:7em; margin-left: auto;
+}
+.custom_logo {
+    margin-left: auto;
+    max-width: 8em;
+}
+
+
+.empty_margin_home { 
+    margin-bottom:2.2cm;
+}
