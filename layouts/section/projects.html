@@ -14,12 +14,18 @@
     <ul>
     {{ range .Pages }}
         {{ if eq .Date.Year 2021}}
-        <li style="margin: 15px 0;">
-            <a href="{{ .Permalink }}">{{ .Title }}</a><br>
-            {{ if .Params.description }}
-            - {{ .Params.description }}
-            {{ end}}
-        </li>
+        {{ if .Title }}
+          <li style="margin: 15px 0;">
+                <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+                {{ if .Params.description }}
+                - {{ .Params.description }}
+                {{ end }}
+          </li>
+        {{ else if .Params.description }}
+          <li style="margin: 15px 0;">
+                {{ .Params.description }}
+          </li>
+        {{ end }}
         {{ end }}
     {{ end }}
     </ul>
