@@ -20,6 +20,7 @@ categories: ["publications"]
 
 <div id="rmftool" style="display:none">
   <embed src="/slides/tosme-workshop-2021.pdf" type="application/pdf" width="100%" height="415px" />
+  --  <a href="/slides/tosme-workshop-2021.pdf">Pdf Link</a> --
 </div> 
 
 <script>
@@ -43,6 +44,7 @@ function myFunction(name) {
 
 <div id="het_systems" style="display:none">
   <embed src="/slides/paris-seminar-may22.pdf" type="application/pdf" width="100%" height="415px" />
+  -- <a href="/slides/paris-seminar-may22.pdf">Pdf Link</a> --
 </div> 
 
 <script>
@@ -70,6 +72,7 @@ function myFunction(name) {
 
 <div id="ligaxis" style="display:none">
   <embed src="/slides/slides_ligwax22_may.pdf" type="application/pdf" width="100%" height="415px" />
+  -- <a href="/slides/slides_ligwax22_may.pdf">Pdf Link</a> --
 </div> 
 
 <script>
