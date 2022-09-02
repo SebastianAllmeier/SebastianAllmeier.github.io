@@ -13,6 +13,30 @@ categories: ["publications"]
 -- Tools for Stochastic Modelling and Evaluation Workshop- Performance 2021 -->
 
 {{< rawhtml >}}
+<a onclick="myFunction('het_meanfield')">Mean Field and Refined Mean Field Approximations for Heterogeneous Systems: It Works</a>
+<br> &ensp;&ensp;
+-- ACM SIGMETRICS / IFIP PERFORMANCE 2022 
+<br>&ensp;
+
+<div id="het_meanfield" style="display:none">
+  <embed src="/slides/Mean_Field_and_Refined_Mean_Field_Approximations_for_Heterogeneous_Systems_It_Works_Allmeier.pdf" type="application/pdf" width="100%" height="415px" />
+  --  <a href="/slides/Mean_Field_and_Refined_Mean_Field_Approximations_for_Heterogeneous_Systems_It_Works_Allmeier.pdf">Pdf Link</a> --
+</div> 
+
+<script>
+function myFunction(name) {
+  var x = document.getElementById(name);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<br>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
 <a onclick="myFunction('rmftool')">rmftool - A library to Compute (Refined) Mean Field Approximation(s)</a>
 <br> &ensp;&ensp;
 -- Tools for Stochastic Modelling and Evaluation Workshop- Performance 2021
@@ -95,3 +119,5 @@ function myFunction(name) {
 [Mean Field and Refined Mean Field Approximations for Heterogeneous Systems (May 2022)]: /slides/paris-seminar-may22.pdf
 
 [(Refined) Mean Field Approximation for Heterogeneous Interaction Models]: /slides/slides_ligwax22_may.pdf
+
+[Mean Field and Refined Mean Field Approximations for Heterogeneous Systems: It Works]: /slides/Mean_Field_and_Refined_Mean_Field_Approximations_for_Heterogeneous_Systems_It_Works_Allmeier.pdf
