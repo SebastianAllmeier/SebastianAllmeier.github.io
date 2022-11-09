@@ -26,6 +26,9 @@
                 {{ .Params.description }}
           </li>
         {{ end }}
+        {{ if .Params.external }}
+            <a href="{{ .Params.external }}" target="_blank">{{ .Title }}> Link to the Website</a>
+        {{ end }}
         {{ end }}
     {{ end }}
     </ul>

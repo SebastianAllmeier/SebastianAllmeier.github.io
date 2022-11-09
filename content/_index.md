@@ -6,7 +6,7 @@ description: "Sebastian Allmeier, PhD Student at Université Grenoble Alpes and 
 weight: -230
 ---
 
-I am a PhD student supervised by [Nicolas GAST] at [Université Grenoble Alpes] and [Inria Grenoble - Rhône-Alpes]. My fields of interest develop around Mean Field methods with applications to large scale stochastic systems such as population models, load balancing policies, chemical reaction networks or network protocols.
+I am a PhD student supervised by [Nicolas Gast] at [Université Grenoble Alpes] and [Inria Grenoble - Rhône-Alpes]. My fields of interest develop around Mean Field methods with applications to large scale stochastic systems such as population models, load balancing policies, chemical reaction networks or network protocols.
 
 
 ###### Contact:
@@ -14,7 +14,7 @@ I am a PhD student supervised by [Nicolas GAST] at [Université Grenoble Alpes] 
 
 
 
-[Nicolas GAST]: http://polaris.imag.fr/nicolas.gast/index.html
+[Nicolas Gast]: http://polaris.imag.fr/nicolas.gast/index.html
 [Université Grenoble Alpes]: https://www.univ-grenoble-alpes.fr/
 [Inria Grenoble - Rhône-Alpes]: https://www.inria.fr/en/centre-inria-grenoble-rhone-alpes
 
