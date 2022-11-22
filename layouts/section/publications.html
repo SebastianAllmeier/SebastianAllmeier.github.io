@@ -63,6 +63,10 @@
                         <br>
                         &emsp;>> Repository for Reproduction: <a href="{{ .Params.Repo }}" target="_blank">Link</a>
                     {{ end }}
+                    {{ if .Params.rmf_tool_pip_link }}
+                        <br>
+                        &emsp;>> Link to the <a href="{{ .Params.rmf_tool_pip_link }}" target="_blank"> Pip Package</a>
+                    {{ end }}
                 </li>
                 {{ end }}
             {{ end }}
