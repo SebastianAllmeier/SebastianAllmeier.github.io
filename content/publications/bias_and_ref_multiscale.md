@@ -5,7 +5,7 @@ weight: -200
 categories: ["publications"]
 external: ""
 WrittenBy: ["Sebastian Allmeier", "Nicolas Gast"]
-Conference: "Under Review"
+Conference: "Accepted at ACM Sigmetrics 2023"
 Repo: ""
 external: "https://arxiv.org/abs/2211.11382"
 ---
