@@ -13,6 +13,31 @@ categories: ["publications"]
 -- Tools for Stochastic Modelling and Evaluation Workshop- Performance 2021 -->
 
 {{< rawhtml >}}
+<a onclick="myFunction('sig23')">Bias and Refinement of Multiscale Mean
+Field Models</a>
+<br> &ensp;&ensp;
+-- ACM SIGMETRICS 23
+<br>&ensp;
+
+<div id="sig23" style="display:none">
+  <embed src="/slides/sigmetics23_slides.pdf" type="application/pdf" width="100%" height="415px" />
+  --  <a href="/slides/sigmetics23_slides.pdf">Pdf Link</a> --
+</div> 
+
+<script>
+function myFunction(name) {
+  var x = document.getElementById(name);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<br>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
 <a onclick="myFunction('het_meanfield')">Mean Field and Refined Mean Field Approximations for Heterogeneous Systems: It Works</a>
 <br> &ensp;&ensp;
 -- ACM SIGMETRICS / IFIP PERFORMANCE 2022 
