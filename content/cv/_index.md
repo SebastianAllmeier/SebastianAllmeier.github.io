@@ -19,7 +19,7 @@ headless: true
 <div class="tg-wrap"><table class="tg">
 <tbody>
   <tr>
-    <td class="tg-oe15">2020 - today</td>
+    <td class="tg-oe15">2020 - 2024</td>
     <td class="tg-oe15">PhD candidate at Inria Centre de Recherche Grenoble Rhone-Alpes and Univ. Grenoble Alpes</td>
   </tr>
   <tr>
